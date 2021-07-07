@@ -74,6 +74,7 @@ try:
         
     print('Program finished!')
 except Exception as e:
+    print('=====================Transitive Closure Calculator============================')
     print('\nTo run this program, you must input either 1, 2 or 3:')
     print('1. Calculate using a Boolean Matrix \n2. Calculate using the Warshall algorithm\n')
     exit(1)
